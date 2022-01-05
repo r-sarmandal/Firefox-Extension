@@ -1,0 +1,25 @@
+{
+
+    "manifest_version": 2,
+    "name": "Speedy",
+    "version": "1.0",
+  
+    "description": "Can change speed of videos",
+    "icons": {
+      "48": "icons/extension-logo.png"
+    },
+  
+    "permissions": [
+      "activeTab"
+    ],
+
+    "background": {
+      "scripts": ["controls1.js"]},
+  
+    "browser_action": {
+      "default_icon": "icons/extension-logo.png",
+      "default_title": "Speedy",
+      "default_popup": "popup/controls.html"
+    }
+
+  }
